@@ -388,9 +388,9 @@ public:
 };
 
 static ClientID last_printed_player;
-#define LAST_PRINTED_PLAYER_STR "last_printed"
+#define LAST_PRINTED_PLAYER_STR "@lp"
 static u32		last_printed_player_banned;
-#define LAST_PRINTED_PLAYER_BANNED_STR "last_printed_banned"
+#define LAST_PRINTED_PLAYER_BANNED_STR "@lpb"
 
 class CCC_KickPlayerByID : public IConsole_Command {
 public:
