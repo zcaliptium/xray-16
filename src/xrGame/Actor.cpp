@@ -1009,8 +1009,8 @@ void CActor::UpdateCL	()
 #ifdef DEBUG
 			HUD().SetFirstBulletCrosshairDisp(pWeapon->GetFirstBulletDisp());
 #endif
-			
-			BOOL B = ! ((mstate_real & mcLookout) && !IsGameTypeSingle());
+			// XEM #95
+			BOOL B = TRUE;/*! ((mstate_real & mcLookout) && !IsGameTypeSingle());*/
 
 			psHUD_Flags.set( HUD_WEAPON_RT, B );
 
@@ -1428,8 +1428,9 @@ extern	BOOL	g_ShowAnimationInfo		;
 void CActor::OnHUDDraw	(CCustomHUD*)
 {
 	R_ASSERT						(IsFocused());
-	if(! ( (mstate_real & mcLookout) && !IsGameTypeSingle() ) )
-		g_player_hud->render_hud		();
+	// XEM #95
+	//if(! ( (mstate_real & mcLookout) && !IsGameTypeSingle() ) )
+	g_player_hud->render_hud		();
 
 
 #if 0//ndef NDEBUG

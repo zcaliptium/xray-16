@@ -496,8 +496,12 @@ void CWeaponMagazined::state_Fire(float dt)
 		CEntity* E = smart_cast<CEntity*>(H_Parent());
 		E->g_fireParams	(this, p1,d);
 
-		if( !E->g_stateFire() )
-			StopShooting();
+		// XEM #95
+		if(!smart_cast<CActor*>(E))
+		{
+			if( !E->g_stateFire() )
+				StopShooting();
+		}
 
 		if (m_iShotNum == 0)
 		{
