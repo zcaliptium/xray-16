@@ -341,6 +341,8 @@ void CActor::g_SetAnimation( u32 mstate_rl )
 		ST 		= &m_anims->m_climb;
 	else							
 		ST 		= &m_anims->m_normal;
+	
+	STorsoWpn* __TW			= &ST->m_torso[4]; // XEM #100
 
 	bool bAccelerated = isActorAccelerated(mstate_rl, IsZoomAimingMode());
 	if ( bAccelerated )
