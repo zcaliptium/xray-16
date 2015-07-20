@@ -241,9 +241,10 @@ void CCustomDetector::UpdateVisibility()
 {
 	//check visibility
 	attachable_hud_item* i0		= g_player_hud->attached_item(0);
+	CActor* current_actor	= smart_cast<CActor*>(H_Parent()); // XEM #88
 	if(i0 && HudItemData())
 	{
-		bool bClimb			= ( (Actor()->MovingState()&mcClimb) != 0 );
+		bool bClimb			= ( (/*Actor()*/current_actor->MovingState()&mcClimb) != 0 );
 		if(bClimb)
 		{
 			HideDetector		(true);
@@ -265,7 +266,7 @@ void CCustomDetector::UpdateVisibility()
 	if(m_bNeedActivation)
 	{
 		attachable_hud_item* i0		= g_player_hud->attached_item(0);
-		bool bClimb					= ( (Actor()->MovingState()&mcClimb) != 0 );
+		bool bClimb					= ( (/*Actor()*/current_actor->MovingState()&mcClimb) != 0 );
 		if(!bClimb)
 		{
 			CHudItem* huditem		= (i0)?i0->m_parent_hud_item : NULL;
