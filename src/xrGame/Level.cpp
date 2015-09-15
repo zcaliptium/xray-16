@@ -46,7 +46,7 @@
 #include "message_filter.h"
 #include "demoplay_control.h"
 #include "demoinfo.h"
-#include "ItemDetectorCustom.h"
+#include "item/ItemDetectorCustom.h"
 #include "xrPhysics/IPHWorld.h"
 #include "xrPhysics/console_vars.h"
 

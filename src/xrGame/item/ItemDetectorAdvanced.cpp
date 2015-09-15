@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "ItemDetectorAdvanced.h"
-#include "ui/ArtefactDetectorUI.h"
-#include "../Include/xrRender/Kinematics.h"
-#include "player_hud.h"
-#include "game_object_space.h"
+#include "../ui/ArtefactDetectorUI.h"
+#include "../../Include/xrRender/Kinematics.h"
+#include "../player_hud.h"
+#include "../game_object_space.h"
 
 
 CAdvancedDetector::CAdvancedDetector()

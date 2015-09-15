@@ -5,7 +5,7 @@
 #include "stdafx.h"
 #include "InfoDocument.h"
 #include "../xrphysics/PhysicsShell.h"
-#include "ItemPDA.h"
+#include "item/ItemPDA.h"
 #include "inventoryowner.h"
 #include "xrserver_objects_alife_items.h"
 

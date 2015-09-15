@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "UIPdaWnd.h"
-#include "../ItemPDA.h"
+#include "../item/ItemPDA.h"
 
 #include "xrUIXmlParser.h"
 #include "UIXmlInit.h"

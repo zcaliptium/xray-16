@@ -111,10 +111,7 @@
 #	include "infodocument.h"
 #	include "attachable_item.h"
 
-#	include "ScientificOutfit.h"
 #	include "StalkerOutfit.h"
-#	include "MilitaryOutfit.h"
-#	include "ExoOutfit.h"
 #	include "ActorHelmet.h"
 
 #	include "f1.h"
@@ -137,14 +134,13 @@
 #	include "hairszone.h"
 //. #	include "amebazone.h"
 #	include "nogravityzone.h"
-#	include "ItemDetectorSimple.h"
-#	include "ItemDetectorElite.h"
-#	include "ItemDetectorAdvanced.h"
+#	include "item/ItemDetectorSimple.h"
+#	include "item/ItemDetectorElite.h"
+#	include "item/ItemDetectorAdvanced.h"
 #	include "zonecampfire.h"
 
-#	include "torch.h"
-#	include "ItemPDA.h"
-#	include "flare.h"
+#	include "item/ItemTorch.h"
+#	include "item/ItemPDA.h"
 
 #	include "searchlight.h"
 
@@ -346,10 +342,7 @@ void CObjectFactory::register_classes	()
 	ADD(CInventoryItemObject	,CSE_ALifeItem					,CLSID_IITEM_ATTACH				,"obj_attachable");
 
 	//Equipment outfit
-	ADD(CScientificOutfit		,CSE_ALifeItemCustomOutfit		,CLSID_EQUIPMENT_SCIENTIFIC		,"equ_scientific");
 	ADD(CStalkerOutfit			,CSE_ALifeItemCustomOutfit		,CLSID_EQUIPMENT_STALKER		,"equ_stalker");
-	ADD(CMilitaryOutfit			,CSE_ALifeItemCustomOutfit		,CLSID_EQUIPMENT_MILITARY		,"equ_military");
-	ADD(CExoOutfit				,CSE_ALifeItemCustomOutfit		,CLSID_EQUIPMENT_EXO			,"equ_exo");
 	ADD(CHelmet					,CSE_ALifeItem					,CLSID_EQUIPMENT_HELMET			,"helmet");
 
 	// Grenades
@@ -394,7 +387,6 @@ void CObjectFactory::register_classes	()
 	// Devices
 	ADD(CTorch					,CSE_ALifeItemTorch				,CLSID_DEVICE_TORCH				,"device_torch");
 	ADD(CPda					,CSE_ALifeItemPDA				,CLSID_DEVICE_PDA				,"device_pda");
-	ADD(CFlare					,CSE_ALifeItem					,CLSID_DEVICE_FLARE				,"device_flare");
 
 	// objects
 	ADD(CProjector				,CSE_ALifeObjectProjector		,CLSID_OBJECT_PROJECTOR			,"projector");

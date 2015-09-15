@@ -375,7 +375,7 @@
     <ClInclude Include="actor_mp_state_inline.h" />
     <ClInclude Include="actor_statistic_defs.h" />
     <ClInclude Include="actor_statistic_mgr.h" />
-    <ClInclude Include="ItemDetectorAdvanced.h" />
+    <ClInclude Include="item\ItemDetectorAdvanced.h" />
     <ClInclude Include="agent_corpse_manager.h" />
     <ClInclude Include="agent_corpse_manager_inline.h" />
     <ClInclude Include="agent_enemy_manager.h" />
@@ -884,7 +884,7 @@
     <ClInclude Include="cover_point_inline.h" />
     <ClInclude Include="cta_game_artefact.h" />
     <ClInclude Include="cta_game_artefact_activation.h" />
-    <ClInclude Include="ItemDetectorCustom.h" />
+    <ClInclude Include="item\ItemDetectorCustom.h" />
     <ClInclude Include="CustomMonster.h" />
     <ClInclude Include="CustomMonster_inline.h" />
     <ClInclude Include="CustomOutfit.h" />
@@ -957,7 +957,7 @@
     <ClInclude Include="ef_storage.h" />
     <ClInclude Include="ef_storage_inline.h" />
     <ClInclude Include="ElectricBall.h" />
-    <ClInclude Include="ItemDetectorElite.h" />
+    <ClInclude Include="item\ItemDetectorElite.h" />
     <ClInclude Include="encyclopedia_article.h" />
     <ClInclude Include="encyclopedia_article_defs.h" />
     <ClInclude Include="enemy_manager.h" />
@@ -967,7 +967,6 @@
     <ClInclude Include="entity_alive.h" />
     <ClInclude Include="entity_alive_inline.h" />
     <ClInclude Include="event_conditions_collection.h" />
-    <ClInclude Include="ExoOutfit.h" />
     <CustomBuild Include="Explosive.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </CustomBuild>
@@ -982,7 +981,6 @@
     <ClInclude Include="file_transfer.h" />
     <ClInclude Include="fire_disp_controller.h" />
     <ClInclude Include="first_bullet_controller.h" />
-    <ClInclude Include="flare.h" />
     <ClInclude Include="FoodItem.h" />
     <ClInclude Include="FryupZone.h" />
     <ClInclude Include="fs_registrator.h" />
@@ -1192,7 +1190,6 @@
     <ClInclude Include="memory_space_impl.h" />
     <ClInclude Include="MercuryBall.h" />
     <ClInclude Include="Message_Filter.h" />
-    <ClInclude Include="MilitaryOutfit.h" />
     <ClInclude Include="Mincer.h" />
     <ClInclude Include="Missile.h" />
     <ClInclude Include="mixed_delegate.h" />
@@ -1275,7 +1272,7 @@
     <ClInclude Include="patrol_path_storage_inline.h" />
     <ClInclude Include="patrol_point.h" />
     <ClInclude Include="patrol_point_inline.h" />
-    <ClInclude Include="ItemPDA.h" />
+    <ClInclude Include="item\ItemPDA.h" />
     <ClInclude Include="PdaMsg.h" />
     <ClInclude Include="pda_space.h" />
     <ClInclude Include="PHCollisionDamageReceiver.h" />
@@ -1383,7 +1380,6 @@
     <ClInclude Include="safe_map_iterator_inline.h" />
     <ClInclude Include="saved_game_wrapper.h" />
     <ClInclude Include="saved_game_wrapper_inline.h" />
-    <ClInclude Include="ScientificOutfit.h" />
     <ClInclude Include="Scope.h" />
     <ClInclude Include="screenshots_common.h" />
     <ClInclude Include="screenshots_writer.h" />
@@ -1472,7 +1468,7 @@
     <ClInclude Include="sight_manager_space.h" />
     <ClInclude Include="Silencer.h" />
     <ClInclude Include="silent_shots.h" />
-    <ClInclude Include="ItemDetectorSimple.h" />
+    <ClInclude Include="item\ItemDetectorSimple.h" />
     <ClInclude Include="smart_cover.h" />
     <ClInclude Include="smart_cover_action.h" />
     <ClInclude Include="smart_cover_action_inline.h" />
@@ -1624,7 +1620,7 @@
     <ClInclude Include="team_hierarchy_holder_inline.h" />
     <ClInclude Include="TeleWhirlwind.h" />
     <ClInclude Include="ThornArtifact.h" />
-    <ClInclude Include="Torch.h" />
+    <ClInclude Include="item\ItemTorch.h" />
     <ClInclude Include="TorridZone.h" />
     <ClInclude Include="Tracer.h" />
     <ClInclude Include="trade.h" />
@@ -2113,7 +2109,7 @@
     <ClCompile Include="Actor_Sleep.cpp" />
     <ClCompile Include="actor_statistic_mgr.cpp" />
     <ClCompile Include="Actor_Weapon.cpp" />
-    <ClCompile Include="ItemDetectorAdvanced.cpp" />
+    <ClCompile Include="item\ItemDetectorAdvanced.cpp" />
     <ClCompile Include="agent_corpse_manager.cpp" />
     <ClCompile Include="agent_enemy_manager.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
@@ -2574,7 +2570,7 @@
     </ClCompile>
     <ClCompile Include="cta_game_artefact.cpp" />
     <ClCompile Include="cta_game_artefact_activation.cpp" />
-    <ClCompile Include="ItemDetectorCustom.cpp" />
+    <ClCompile Include="item\ItemDetectorCustom.cpp" />
     <ClCompile Include="CustomMonster.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
@@ -2641,7 +2637,7 @@
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClCompile Include="ElectricBall.cpp" />
-    <ClCompile Include="ItemDetectorElite.cpp" />
+    <ClCompile Include="item\ItemDetectorElite.cpp" />
     <ClCompile Include="encyclopedia_article.cpp" />
     <ClCompile Include="enemy_manager.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
@@ -2654,7 +2650,6 @@
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClCompile Include="event_conditions_collection.cpp" />
-    <ClCompile Include="ExoOutfit.cpp" />
     <ClCompile Include="Explosive.cpp" />
     <ClCompile Include="ExplosiveItem.cpp" />
     <ClCompile Include="ExplosiveRocket.cpp" />
@@ -2673,7 +2668,6 @@
     <ClCompile Include="file_transfer.cpp" />
     <ClCompile Include="fire_disp_controller.cpp" />
     <ClCompile Include="first_bullet_controller.cpp" />
-    <ClCompile Include="flare.cpp" />
     <ClCompile Include="FoodItem.cpp" />
     <ClCompile Include="FryupZone.cpp" />
     <ClCompile Include="fs_registrator_script.cpp">
@@ -2981,7 +2975,6 @@
     </ClCompile>
     <ClCompile Include="MercuryBall.cpp" />
     <ClCompile Include="Message_Filter.cpp" />
-    <ClCompile Include="MilitaryOutfit.cpp" />
     <ClCompile Include="Mincer.cpp" />
     <ClCompile Include="mincer_script.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
@@ -3049,7 +3042,7 @@
     </ClCompile>
     <ClCompile Include="patrol_path_storage.cpp" />
     <ClCompile Include="patrol_point.cpp" />
-    <ClCompile Include="ItemPDA.cpp">
+    <ClCompile Include="item\ItemPDA.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
@@ -3190,7 +3183,6 @@
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
-    <ClCompile Include="ScientificOutfit.cpp" />
     <ClCompile Include="Scope.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
@@ -3406,7 +3398,7 @@
     <ClCompile Include="sight_manager_target.cpp" />
     <ClCompile Include="Silencer.cpp" />
     <ClCompile Include="silent_shots.cpp" />
-    <ClCompile Include="ItemDetectorSimple.cpp" />
+    <ClCompile Include="item\ItemDetectorSimple.cpp" />
     <ClCompile Include="smart_cover.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
@@ -3645,8 +3637,8 @@
     <ClCompile Include="team_hierarchy_holder.cpp" />
     <ClCompile Include="TeleWhirlwind.cpp" />
     <ClCompile Include="ThornArtifact.cpp" />
-    <ClCompile Include="Torch.cpp" />
-    <ClCompile Include="torch_script.cpp">
+    <ClCompile Include="item\ItemTorch.cpp" />
+    <ClCompile Include="item\ItemTorch_script.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
     </ClCompile>

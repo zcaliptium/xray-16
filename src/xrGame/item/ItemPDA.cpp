@@ -1,16 +1,16 @@
 #include "pch_script.h"
 #include "ItemPDA.h"
 #include "../xrphysics/PhysicsShell.h"
-#include "Entity.h"
-#include "actor.h"
+#include "../Entity.h"
+#include "../Actor.h"
 
-#include "xrserver.h"
+#include "../xrserver.h"
 #include "xrServer_Objects_ALife_Items.h"
-#include "level.h"
+#include "../level.h"
 
 #include "specific_character.h"
-#include "alife_registry_wrappers.h"
-#include "../xrServerEntities/script_engine.h"
+#include "../alife_registry_wrappers.h"
+#include "../../xrServerEntities/script_engine.h"
 
 
 CPda::CPda(void)						

@@ -1,23 +1,23 @@
 #include "stdafx.h"
-#include "torch.h"
-#include "entity.h"
-#include "actor.h"
+#include "ItemTorch.h"
+#include "../Entity.h"
+#include "../Actor.h"
 #include "../xrEngine/LightAnimLibrary.h"
 #include "../xrphysics/PhysicsShell.h"
 #include "xrserver_objects_alife_items.h"
 #include "ai_sounds.h"
 
-#include "level.h"
+#include "../Level.h"
 #include "../Include/xrRender/Kinematics.h"
 #include "../xrEngine/camerabase.h"
 #include "../xrengine/xr_collide_form.h"
 #include "inventory.h"
 #include "game_base_space.h"
 
-#include "UIGameCustom.h"
-#include "actorEffector.h"
-#include "CustomOutfit.h"
-#include "ActorHelmet.h"
+#include "../UIGameCustom.h"
+#include "../actorEffector.h"
+#include "../CustomOutfit.h"
+#include "../ActorHelmet.h"
 
 static const float		TORCH_INERTION_CLAMP		= PI_DIV_6;
 static const float		TORCH_INERTION_SPEED_MAX	= 7.5f;

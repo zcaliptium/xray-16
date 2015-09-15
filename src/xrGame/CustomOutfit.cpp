@@ -203,7 +203,7 @@ BOOL	CCustomOutfit::BonePassBullet					(int boneID)
 	return m_boneProtection->getBonePassBullet(s16(boneID));
 }
 
-#include "torch.h"
+#include "item/ItemTorch.h"
 void	CCustomOutfit::OnMoveToSlot		(const SInvItemPlace& prev)
 {
 	if ( m_pInventory )

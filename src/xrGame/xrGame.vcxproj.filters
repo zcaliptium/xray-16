@@ -1879,9 +1879,6 @@
     <Filter Include="Core\Client\Objects\items &amp; weapons\Devices\Torch">
       <UniqueIdentifier>{aba5d59b-9d45-48d4-824e-ac2e133ad875}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Devices\flare">
-      <UniqueIdentifier>{8b5e7495-9945-41d5-92ad-ee33ee7900f9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Core\Client\Objects\items &amp; weapons\PDA &amp; information">
       <UniqueIdentifier>{18753230-e688-46c5-9d53-9b4845eca8a6}</UniqueIdentifier>
     </Filter>
@@ -5904,12 +5901,6 @@
     <ClInclude Include="ui\ArtefactDetectorUI.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
     </ClInclude>
-    <ClInclude Include="Torch.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
-    </ClInclude>
-    <ClInclude Include="flare.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\flare</Filter>
-    </ClInclude>
     <ClInclude Include="pda_space.h">
       <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
     </ClInclude>
@@ -5935,15 +5926,6 @@
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
     </ClInclude>
     <ClInclude Include="CustomOutfit.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClInclude>
-    <ClInclude Include="ExoOutfit.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClInclude>
-    <ClInclude Include="MilitaryOutfit.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClInclude>
-    <ClInclude Include="ScientificOutfit.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
     </ClInclude>
     <ClInclude Include="StalkerOutfit.h">
@@ -7362,20 +7344,23 @@
     <ClInclude Include="ui\ChangeWeatherDialog.hpp">
       <Filter>UI\Multiplayer\Voting</Filter>
     </ClInclude>
-    <ClInclude Include="ItemPDA.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
-    </ClInclude>
-    <ClInclude Include="ItemDetectorAdvanced.h">
+    <ClInclude Include="item\ItemDetectorAdvanced.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\AdvancedDetector</Filter>
     </ClInclude>
-    <ClInclude Include="ItemDetectorElite.h">
+    <ClInclude Include="item\ItemDetectorElite.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\EliteDetector</Filter>
     </ClInclude>
-    <ClInclude Include="ItemDetectorSimple.h">
+    <ClInclude Include="item\ItemDetectorSimple.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\Simple Detector</Filter>
     </ClInclude>
-    <ClInclude Include="ItemDetectorCustom.h">
+    <ClInclude Include="item\ItemDetectorCustom.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemPDA.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemTorch.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -9479,15 +9464,6 @@
     <ClCompile Include="ui\ArtefactDetectorUI.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
     </ClCompile>
-    <ClCompile Include="Torch.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
-    </ClCompile>
-    <ClCompile Include="torch_script.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
-    </ClCompile>
-    <ClCompile Include="flare.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\flare</Filter>
-    </ClCompile>
     <ClCompile Include="antirad.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
     </ClCompile>
@@ -9507,15 +9483,6 @@
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
     </ClCompile>
     <ClCompile Include="CustomOutfit.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClCompile>
-    <ClCompile Include="ExoOutfit.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClCompile>
-    <ClCompile Include="MilitaryOutfit.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClCompile>
-    <ClCompile Include="ScientificOutfit.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
     </ClCompile>
     <ClCompile Include="StalkerOutfit.cpp">
@@ -11009,20 +10976,26 @@
     <ClCompile Include="ui\ChangeWeatherDialog.cpp">
       <Filter>UI\Multiplayer\Voting</Filter>
     </ClCompile>
-    <ClCompile Include="ItemPDA.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
-    </ClCompile>
-    <ClCompile Include="ItemDetectorAdvanced.cpp">
+    <ClCompile Include="item\ItemDetectorAdvanced.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\AdvancedDetector</Filter>
     </ClCompile>
-    <ClCompile Include="ItemDetectorElite.cpp">
+    <ClCompile Include="item\ItemDetectorElite.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\EliteDetector</Filter>
     </ClCompile>
-    <ClCompile Include="ItemDetectorSimple.cpp">
+    <ClCompile Include="item\ItemDetectorSimple.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\Simple Detector</Filter>
     </ClCompile>
-    <ClCompile Include="ItemDetectorCustom.cpp">
+    <ClCompile Include="item\ItemDetectorCustom.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemPDA.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemTorch_script.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemTorch.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

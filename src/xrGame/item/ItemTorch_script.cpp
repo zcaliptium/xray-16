@@ -1,5 +1,5 @@
 #include "pch_script.h"
-#include "torch.h"
+#include "ItemTorch.h"
 #include "ItemPDA.h"
 #include "ItemDetectorSimple.h"
 #include "ItemDetectorElite.h"

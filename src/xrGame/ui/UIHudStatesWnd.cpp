@@ -16,9 +16,9 @@
 #include "UIHelper.h"
 #include "ui_arrow.h"
 #include "UIInventoryUtilities.h"
-#include "ItemDetectorCustom.h"
+#include "item/ItemDetectorCustom.h"
 #include "../ai/monsters/basemonster/base_monster.h"
-#include "../ItemPDA.h"
+#include "../item/ItemPDA.h"
 #include "WeaponMagazinedWGrenade.h"
 
 CUIHudStatesWnd::CUIHudStatesWnd()

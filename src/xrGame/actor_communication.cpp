@@ -1,7 +1,7 @@
 #include "pch_script.h"
 #include "actor.h"
 #include "UIGameSP.h"
-#include "ItemPDA.h"
+#include "item/ItemPDA.h"
 #include "level.h"
 #include "string_table.h"
 #include "PhraseDialog.h"
@@ -26,7 +26,7 @@
 #include "GameTaskdefs.h"
 #include "infoportion.h"
 #include "inventory.h"
-#include "ItemDetectorCustom.h"
+#include "item/ItemDetectorCustom.h"
 #include "ai/monsters/basemonster/base_monster.h"
 #include "ai/trader/ai_trader.h"
 

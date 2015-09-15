@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include <dinput.h>
 #include "Actor.h"
-#include "Torch.h"
+#include "item/ItemTorch.h"
 #include "trade.h"
 #include "../xrEngine/CameraBase.h"
 
@@ -28,8 +28,7 @@
 #include "InventoryBox.h"
 #include "player_hud.h"
 #include "../xrEngine/xr_input.h"
-#include "flare.h"
-#include "ItemDetectorCustom.h"
+#include "item/ItemDetectorCustom.h"
 #include "clsid_game.h"
 #include "hudmanager.h"
 #include "Weapon.h"

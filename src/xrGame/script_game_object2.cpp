@@ -16,7 +16,7 @@
 #include "object_handler.h"
 #include "script_hit.h"
 #include "../Include/xrRender/Kinematics.h"
-#include "ItemPDA.h"
+#include "item/ItemPDA.h"
 #include "InfoPortion.h"
 #include "memory_manager.h"
 #include "ai_phrasedialogmanager.h"
