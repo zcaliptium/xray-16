@@ -137,13 +137,13 @@
 #	include "hairszone.h"
 //. #	include "amebazone.h"
 #	include "nogravityzone.h"
-#	include "simpledetector.h"
-#	include "elitedetector.h"
-#	include "advanceddetector.h"
+#	include "ItemDetectorSimple.h"
+#	include "ItemDetectorElite.h"
+#	include "ItemDetectorAdvanced.h"
 #	include "zonecampfire.h"
 
 #	include "torch.h"
-#	include "pda.h"
+#	include "ItemPDA.h"
 #	include "flare.h"
 
 #	include "searchlight.h"

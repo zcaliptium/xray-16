@@ -11,7 +11,7 @@
 #include "../EntityCondition.h"
 #include "../CustomOutfit.h"
 #include "../ActorHelmet.h"
-#include "../PDA.h"
+#include "../ItemPDA.h"
 #include "../xrServerEntities/character_info.h"
 #include "../inventory.h"
 #include "../UIGameSP.h"

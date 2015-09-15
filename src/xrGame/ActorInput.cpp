@@ -29,7 +29,7 @@
 #include "player_hud.h"
 #include "../xrEngine/xr_input.h"
 #include "flare.h"
-#include "CustomDetector.h"
+#include "ItemDetectorCustom.h"
 #include "clsid_game.h"
 #include "hudmanager.h"
 #include "Weapon.h"

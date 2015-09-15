@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "customdetector.h"
+#include "ItemDetectorCustom.h"
 #include "ui/ArtefactDetectorUI.h"
 #include "hudmanager.h"
 #include "inventory.h"

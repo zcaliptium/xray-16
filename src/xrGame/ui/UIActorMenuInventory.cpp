@@ -31,8 +31,8 @@
 #include "../UICursor.h"
 #include "../MPPlayersBag.h"
 #include "../player_hud.h"
-#include "../CustomDetector.h"
-#include "../PDA.h"
+#include "../ItemDetectorCustom.h"
+#include "../ItemPDA.h"
 
 #include "../actor_defs.h"
 

@@ -1,9 +1,9 @@
 #include "pch_script.h"
 #include "torch.h"
-#include "PDA.h"
-#include "SimpleDetector.h"
-#include "EliteDetector.h"
-#include "AdvancedDetector.h"
+#include "ItemPDA.h"
+#include "ItemDetectorSimple.h"
+#include "ItemDetectorElite.h"
+#include "ItemDetectorAdvanced.h"
 
 using namespace luabind;
 

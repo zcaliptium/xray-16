@@ -1,7 +1,7 @@
 #include "pch_script.h"
 #include "InventoryOwner.h"
 #include "entity_alive.h"
-#include "pda.h"
+#include "ItemPDA.h"
 #include "actor.h"
 #include "trade.h"
 #include "inventory.h"

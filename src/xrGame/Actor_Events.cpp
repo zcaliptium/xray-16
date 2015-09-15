@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "actor.h"
-#include "customdetector.h"
+#include "ItemDetectorCustom.h"
 #include "weapon.h"
 #include "artefact.h"
 #include "scope.h"

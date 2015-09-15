@@ -1,5 +1,5 @@
 #pragma once
-#include "customdetector.h"
+#include "ItemDetectorCustom.h"
 
 class CUIArtefactDetectorSimple;
 

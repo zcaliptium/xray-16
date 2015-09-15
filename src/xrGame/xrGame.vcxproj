@@ -375,7 +375,7 @@
     <ClInclude Include="actor_mp_state_inline.h" />
     <ClInclude Include="actor_statistic_defs.h" />
     <ClInclude Include="actor_statistic_mgr.h" />
-    <ClInclude Include="AdvancedDetector.h" />
+    <ClInclude Include="ItemDetectorAdvanced.h" />
     <ClInclude Include="agent_corpse_manager.h" />
     <ClInclude Include="agent_corpse_manager_inline.h" />
     <ClInclude Include="agent_enemy_manager.h" />
@@ -884,7 +884,7 @@
     <ClInclude Include="cover_point_inline.h" />
     <ClInclude Include="cta_game_artefact.h" />
     <ClInclude Include="cta_game_artefact_activation.h" />
-    <ClInclude Include="CustomDetector.h" />
+    <ClInclude Include="ItemDetectorCustom.h" />
     <ClInclude Include="CustomMonster.h" />
     <ClInclude Include="CustomMonster_inline.h" />
     <ClInclude Include="CustomOutfit.h" />
@@ -957,7 +957,7 @@
     <ClInclude Include="ef_storage.h" />
     <ClInclude Include="ef_storage_inline.h" />
     <ClInclude Include="ElectricBall.h" />
-    <ClInclude Include="EliteDetector.h" />
+    <ClInclude Include="ItemDetectorElite.h" />
     <ClInclude Include="encyclopedia_article.h" />
     <ClInclude Include="encyclopedia_article_defs.h" />
     <ClInclude Include="enemy_manager.h" />
@@ -1275,7 +1275,7 @@
     <ClInclude Include="patrol_path_storage_inline.h" />
     <ClInclude Include="patrol_point.h" />
     <ClInclude Include="patrol_point_inline.h" />
-    <ClInclude Include="PDA.h" />
+    <ClInclude Include="ItemPDA.h" />
     <ClInclude Include="PdaMsg.h" />
     <ClInclude Include="pda_space.h" />
     <ClInclude Include="PHCollisionDamageReceiver.h" />
@@ -1472,7 +1472,7 @@
     <ClInclude Include="sight_manager_space.h" />
     <ClInclude Include="Silencer.h" />
     <ClInclude Include="silent_shots.h" />
-    <ClInclude Include="SimpleDetector.h" />
+    <ClInclude Include="ItemDetectorSimple.h" />
     <ClInclude Include="smart_cover.h" />
     <ClInclude Include="smart_cover_action.h" />
     <ClInclude Include="smart_cover_action_inline.h" />
@@ -2113,7 +2113,7 @@
     <ClCompile Include="Actor_Sleep.cpp" />
     <ClCompile Include="actor_statistic_mgr.cpp" />
     <ClCompile Include="Actor_Weapon.cpp" />
-    <ClCompile Include="AdvancedDetector.cpp" />
+    <ClCompile Include="ItemDetectorAdvanced.cpp" />
     <ClCompile Include="agent_corpse_manager.cpp" />
     <ClCompile Include="agent_enemy_manager.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
@@ -2574,7 +2574,7 @@
     </ClCompile>
     <ClCompile Include="cta_game_artefact.cpp" />
     <ClCompile Include="cta_game_artefact_activation.cpp" />
-    <ClCompile Include="CustomDetector.cpp" />
+    <ClCompile Include="ItemDetectorCustom.cpp" />
     <ClCompile Include="CustomMonster.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
@@ -2641,7 +2641,7 @@
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClCompile Include="ElectricBall.cpp" />
-    <ClCompile Include="EliteDetector.cpp" />
+    <ClCompile Include="ItemDetectorElite.cpp" />
     <ClCompile Include="encyclopedia_article.cpp" />
     <ClCompile Include="enemy_manager.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
@@ -3049,7 +3049,7 @@
     </ClCompile>
     <ClCompile Include="patrol_path_storage.cpp" />
     <ClCompile Include="patrol_point.cpp" />
-    <ClCompile Include="PDA.cpp">
+    <ClCompile Include="ItemPDA.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
@@ -3406,7 +3406,7 @@
     <ClCompile Include="sight_manager_target.cpp" />
     <ClCompile Include="Silencer.cpp" />
     <ClCompile Include="silent_shots.cpp" />
-    <ClCompile Include="SimpleDetector.cpp" />
+    <ClCompile Include="ItemDetectorSimple.cpp" />
     <ClCompile Include="smart_cover.cpp">
       <PrecompiledHeaderFile>pch_script.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>

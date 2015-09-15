@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "EliteDetector.h"
+#include "ItemDetectorElite.h"
 #include "player_hud.h"
 #include "../Include/xrRender/UIRender.h"
 #include "ui/UIXmlInit.h"
