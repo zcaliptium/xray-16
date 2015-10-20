@@ -1,6 +1,6 @@
 #include "stdafx.h"
 
-#include "gravizone.h"
+#include "ZoneGravi.h"
 
 #include "../xrphysics/PhysicsShell.h"
 #include "entity_alive.h"

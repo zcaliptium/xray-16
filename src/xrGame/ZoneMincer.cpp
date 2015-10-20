@@ -2,13 +2,13 @@
 #include "alife_space.h"
 #include "hit.h"
 #include "PHDestroyable.h"
-#include "mincer.h"
+#include "ZoneMincer.h"
 #include "xrmessages.h"
 #include "level.h"
 #include "CustomZone.h"
 #include "entity_alive.h"
 #include "PHDestroyableNotificate.h"
-#include "actor.h"
+#include "Actor.h"
 
 CMincer::CMincer(void) 
 {

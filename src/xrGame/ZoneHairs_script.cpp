@@ -1,5 +1,5 @@
 #include "pch_script.h"
-#include "HairsZone.h"
+#include "ZoneHairs.h"
 
 using namespace luabind;
 

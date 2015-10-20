@@ -5,9 +5,9 @@
 
 #include "stdafx.h"
 #include "BottleItem.h"
-#include "xrmessages.h"
-#include "entity_alive.h"
-#include "EntityCondition.h"
+#include "xrMessages.h"
+#include "../entity_alive.h"
+#include "../EntityCondition.h"
 
 #define BREAK_POWER 5.f
 

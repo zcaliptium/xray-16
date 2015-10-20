@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "radioactivezone.h"
+#include "ZoneRadioactive.h"
 #include "level.h"
 #include "xrmessages.h"
 #include "../xrEngine/bone.h"

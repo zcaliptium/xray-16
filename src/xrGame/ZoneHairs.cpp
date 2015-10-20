@@ -1,5 +1,5 @@
 #include "pch_script.h"
-#include "HairsZone.h"
+#include "ZoneHairs.h"
 #include "level.h"
 #include "PhysicsShellHolder.h"
 #include "entity_alive.h"

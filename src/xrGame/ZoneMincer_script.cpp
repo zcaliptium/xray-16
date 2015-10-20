@@ -1,6 +1,6 @@
 #include "pch_script.h"
-#include "mincer.h"
-#include "RadioactiveZone.h"
+#include "ZoneMincer.h"
+#include "ZoneRadioactive.h"
 
 using namespace luabind;
 

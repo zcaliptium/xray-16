@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////
-//	Module 		: level_changer.cpp
+//	Module 		: ZoneLevelChanger.cpp
 //	Created 	: 10.07.2003
 //  Modified 	: 10.07.2003
 //	Author		: Dmitriy Iassenev
@@ -7,7 +7,7 @@
 ////////////////////////////////////////////////////////////////////////////
 
 #include "stdafx.h"
-#include "level_changer.h"
+#include "ZoneLevelChanger.h"
 #include "hit.h"
 #include "actor.h"
 #include "xrserver_objects_alife.h"

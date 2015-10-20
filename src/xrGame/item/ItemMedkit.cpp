@@ -1,12 +1,12 @@
 ///////////////////////////////////////////////////////////////
-// Medkit.cpp
-// Medkit - аптечка, повышающая здоровье
+// ItemMedkit.cpp
+// ItemMedkit - аптечка, повышающая здоровье
 ///////////////////////////////////////////////////////////////
 
 #include "stdafx.h"
 
-#include "medkit.h"
-#include "../xrphysics/PhysicsShell.h"
+#include "ItemMedkit.h"
+#include "../../xrphysics/PhysicsShell.h"
 
 CMedkit::CMedkit() 
 {

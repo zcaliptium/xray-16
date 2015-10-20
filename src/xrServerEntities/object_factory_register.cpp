@@ -61,79 +61,68 @@
 
 #	include "helicopter.h"
 
-#	include "MercuryBall.h"
-#	include "BlackDrops.h"
-#	include "BlackGraviArtifact.h"
-#	include "BastArtifact.h"
-#	include "DummyArtifact.h"
-#	include "ZudaArtifact.h"
-#	include "ThornArtifact.h"
-#	include "FadedBall.h"
 #	include "ElectricBall.h"
-#	include "RustyHairArtifact.h"
-#	include "GalantineArtifact.h"
 #	include "GraviArtifact.h"
 #	include "cta_game_artefact.h"
 
-#	include "weaponFN2000.h"
-#	include "weaponAK74.h"
-#	include "weaponLR300.h"
-#	include "weaponHPSA.h"
-#	include "weaponPM.h"
-#	include "weaponAMMO.h"
-#	include "weaponFORT.h"
-#	include "weaponBINOCULARS.h"
-#	include "weaponShotgun.h"
-#	include "weaponsvd.h"
-#	include "weaponsvu.h"
-#	include "weaponrpg7.h"
-#	include "weaponval.h"
-#	include "weaponvintorez.h"
-#	include "weaponwalther.h"
-#	include "weaponusp45.h"
-#	include "weapongroza.h"
-#	include "weaponknife.h"
-#	include "weaponBM16.h"
-#	include "weaponRG6.h"
+#	include "WeaponFN2000.h"
+#	include "WeaponAK74.h"
+#	include "WeaponLR300.h"
+#	include "WeaponHPSA.h"
+#	include "WeaponPM.h"
+#	include "WeaponAMMO.h"
+#	include "WeaponFORT.h"
+#	include "WeaponBINOCULARS.h"
+#	include "WeaponShotgun.h"
+#	include "Weaponsvd.h"
+#	include "Weaponsvu.h"
+#	include "Weaponrpg7.h"
+#	include "Weaponval.h"
+#	include "Weaponvintorez.h"
+#	include "Weaponwalther.h"
+#	include "Weaponusp45.h"
+#	include "Weapongroza.h"
+#	include "Weaponknife.h"
+#	include "WeaponBM16.h"
+#	include "WeaponRG6.h"
 #	include "WeaponStatMgun.h"
 
-#	include "scope.h"
-#	include "silencer.h"
-#	include "grenadelauncher.h"
+#	include "Scope.h"
+#	include "Silencer.h"
+#	include "GrenadeLauncher.h"
 
-#	include "bolt.h"
-#	include "medkit.h"
-#	include "antirad.h"
-#	include "fooditem.h"
-#	include "bottleitem.h"
-#	include "explosiveitem.h"
+#	include "Bolt.h"
+#	include "item/ItemMedkit.h"
+#	include "item/FoodItem.h"
+#	include "item/BottleItem.h"
+#	include "ExplosiveItem.h"
 
-#	include "infodocument.h"
+#	include "item/ItemInfoDocument.h"
 #	include "attachable_item.h"
 
 #	include "StalkerOutfit.h"
 #	include "ActorHelmet.h"
 
-#	include "f1.h"
-#	include "rgd5.h"
+#	include "F1.h"
+#	include "RGD5.h"
 
 #	include "explosiverocket.h"
 
 #	include "MPPlayersBag.h"
 
-#	include "customzone.h"
-#	include "mosquitobald.h"
-#	include "mincer.h"
-#	include "gravizone.h"
-#	include "radioactivezone.h"
-#	include "level_changer.h"
+#	include "CustomZone.h"
+#	include "ZoneMosquitoBald.h"
+#	include "ZoneMincer.h"
+#	include "ZoneGravi.h"
+#	include "ZoneRadioactive.h"
+#	include "ZoneLevelChanger.h"
 #	include "script_zone.h"
 #	include "team_base_zone.h"
-#	include "torridZone.h"
+#	include "ZoneTorrid.h"
 #	include "ZoneVisual.h"
-#	include "hairszone.h"
+#	include "ZoneHairs.h"
 //. #	include "amebazone.h"
-#	include "nogravityzone.h"
+#	include "ZoneNoGravity.h"
 #	include "item/ItemDetectorSimple.h"
 #	include "item/ItemDetectorElite.h"
 #	include "item/ItemDetectorAdvanced.h"
@@ -273,18 +262,7 @@ void CObjectFactory::register_classes	()
 #endif // #ifndef NO_SINGLE
 
 	// Artefacts
-	ADD(CMercuryBall			,CSE_ALifeItemArtefact			,CLSID_AF_MERCURY_BALL			,"art_mercury_ball");
-	ADD(CBlackDrops				,CSE_ALifeItemArtefact			,CLSID_AF_BLACKDROPS			,"art_black_drops");
-	ADD(CBlackGraviArtefact		,CSE_ALifeItemArtefact			,CLSID_AF_NEEDLES				,"art_needles");
-	ADD(CBastArtefact			,CSE_ALifeItemArtefact			,CLSID_AF_BAST					,"art_bast_artefact");
-	ADD(CBlackGraviArtefact		,CSE_ALifeItemArtefact			,CLSID_AF_BLACK_GRAVI			,"art_gravi_black");
-	ADD(CDummyArtefact			,CSE_ALifeItemArtefact			,CLSID_AF_DUMMY					,"art_dummy");
-	ADD(CZudaArtefact			,CSE_ALifeItemArtefact			,CLSID_AF_ZUDA					,"art_zuda");
-	ADD(CThornArtefact			,CSE_ALifeItemArtefact			,CLSID_AF_THORN					,"art_thorn");
-	ADD(CFadedBall				,CSE_ALifeItemArtefact			,CLSID_AF_FADED_BALL			,"art_faded_ball");
 	ADD(CElectricBall			,CSE_ALifeItemArtefact			,CLSID_AF_ELECTRIC_BALL			,"art_electric_ball");
-	ADD(CRustyHairArtefact		,CSE_ALifeItemArtefact			,CLSID_AF_RUSTY_HAIR			,"art_rusty_hair");
-	ADD(CGalantineArtefact		,CSE_ALifeItemArtefact			,CLSID_AF_GALANTINE				,"art_galantine");
 	ADD(CGraviArtefact			,CSE_ALifeItemArtefact			,CLSID_AF_GRAVI					,"art_gravi");
 	ADD(CGraviArtefact			,CSE_ALifeItemArtefact			,CLSID_ARTEFACT					,"artefact");
 	ADD(CtaGameArtefact			,CSE_ALifeItemArtefact			,CLSID_AF_CTA					,"art_cta");
@@ -332,7 +310,7 @@ void CObjectFactory::register_classes	()
 #endif // #ifndef NO_SINGLE
 	ADD(CMedkit					,CSE_ALifeItem					,CLSID_IITEM_MEDKIT				,"obj_medkit");
 	ADD(CMedkit					,CSE_ALifeItem					,CLSID_IITEM_BANDAGE			,"obj_bandage");
-	ADD(CAntirad				,CSE_ALifeItem					,CLSID_IITEM_ANTIRAD			,"obj_antirad");
+	ADD(CMedkit					,CSE_ALifeItem					,CLSID_IITEM_ANTIRAD			,"obj_antirad");
 	ADD(CFoodItem				,CSE_ALifeItem					,CLSID_IITEM_FOOD				,"obj_food");
 	ADD(CBottleItem				,CSE_ALifeItem					,CLSID_IITEM_BOTTLE				,"obj_bottle");
 	ADD(CExplosiveItem			,CSE_ALifeItemExplosive			,CLSID_IITEM_EXPLOSIVE			,"obj_explosive");

@@ -1,5 +1,5 @@
 #pragma once
-#include "MosquitoBald.h"
+#include "ZoneMosquitoBald.h"
 
 class CZoneCampfire :public CMosquitoBald
 {

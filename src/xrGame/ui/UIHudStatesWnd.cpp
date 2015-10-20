@@ -7,7 +7,7 @@
 #include "../CustomOutfit.h"
 #include "../ActorHelmet.h"
 #include "../inventory.h"
-#include "../RadioactiveZone.h"
+#include "../ZoneRadioactive.h"
 
 #include "UIStatic.h"
 #include "UIProgressBar.h"

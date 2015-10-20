@@ -12,7 +12,7 @@
 #include "ai/stalker/ai_stalker.h"
 #include "inventory.h"
 #include "missile.h"
-#include "fooditem.h"
+#include "item/FoodItem.h"
 #include "weaponmagazined.h"
 
 //////////////////////////////////////////////////////////////////////////

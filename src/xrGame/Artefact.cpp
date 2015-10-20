@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "artefact.h"
+#include "Artefact.h"
 #include "../xrphysics/PhysicsShell.h"
 #include "PhysicsShellHolder.h"
 #include "game_cl_base.h"

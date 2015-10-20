@@ -38,7 +38,7 @@
 #include "ai_stalker_space.h"
 #include "../../effectorshot.h"
 #include "../../BoneProtections.h"
-#include "../../RadioactiveZone.h"
+#include "../../ZoneRadioactive.h"
 #include "../../restricted_object.h"
 #include "../../ai_object_location.h"
 #include "../../missile.h"

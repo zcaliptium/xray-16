@@ -17,15 +17,14 @@
 #include "UIGameCustom.h"
 #include "eatable_item_object.h"
 
-#include "../silencer.h"
-#include "../scope.h"
-#include "../grenadelauncher.h"
+#include "../Silencer.h"
+#include "../Scope.h"
+#include "../GrenadeLauncher.h"
 #include "../Artefact.h"
 #include "../eatable_item.h"
-#include "../BottleItem.h"
+#include "../item/BottleItem.h"
 #include "../WeaponMagazined.h"
-#include "../Medkit.h"
-#include "../Antirad.h"
+#include "../item/ItemMedkit.h"
 #include "../CustomOutfit.h"
 #include "../ActorHelmet.h"
 #include "../UICursor.h"
@@ -728,10 +727,9 @@ bool CUIActorMenu::TryUseItem( CUICellItem* cell_itm )
 
 	CBottleItem*	pBottleItem		= smart_cast<CBottleItem*>	(item);
 	CMedkit*		pMedkit			= smart_cast<CMedkit*>		(item);
-	CAntirad*		pAntirad		= smart_cast<CAntirad*>		(item);
 	CEatableItem*	pEatableItem	= smart_cast<CEatableItem*>	(item);
 
-	if ( !(pMedkit || pAntirad || pEatableItem || pBottleItem) )
+	if ( !(pMedkit || pEatableItem || pBottleItem) )
 	{
 		return false;
 	}
@@ -1044,12 +1042,11 @@ void CUIActorMenu::PropertiesBoxForAddon( PIItem item, bool& b_show )
 void CUIActorMenu::PropertiesBoxForUsing( PIItem item, bool& b_show )
 {
 	CMedkit*		pMedkit			= smart_cast<CMedkit*>		(item);
-	CAntirad*		pAntirad		= smart_cast<CAntirad*>		(item);
 	CEatableItem*	pEatableItem	= smart_cast<CEatableItem*>	(item);
 	CBottleItem*	pBottleItem		= smart_cast<CBottleItem*>	(item);
 
 	LPCSTR act_str = NULL;
-	if ( pMedkit || pAntirad )
+	if ( pMedkit  )
 	{
 		act_str = "st_use";
 	}

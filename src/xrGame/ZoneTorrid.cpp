@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "torridZone.h"
+#include "ZoneTorrid.h"
 #include "../xrEngine/objectanimator.h"
 #include "xrServer_Objects_ALife_Monsters.h"
 

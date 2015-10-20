@@ -1,6 +1,6 @@
 #include "pch_script.h"
 #include "Actor_Flags.h"
-#include "hudmanager.h"
+#include "HUDManager.h"
 #ifdef DEBUG
 
 #	include "PHDebug.h"
@@ -12,14 +12,14 @@
 #include "xrserver_objects_alife_monsters.h"
 #include "CameraLook.h"
 #include "CameraFirstEye.h"
-#include "effectorfall.h"
+#include "EffectorFall.h"
 #include "EffectorBobbing.h"
 #include "ActorEffector.h"
 #include "EffectorZoomInertion.h"
 #include "SleepEffector.h"
 #include "character_info.h"
 #include "CustomOutfit.h"
-#include "actorcondition.h"
+#include "ActorCondition.h"
 #include "UIGameCustom.h"
 #include "../xrphysics/matrix_utils.h"
 #include "clsid_game.h"
@@ -1226,7 +1226,7 @@ void CActor::shedule_Update	(u32 DT)
 	}
 	pCamBobbing->SetState						(mstate_real, conditions().IsLimping(), IsZoomAimingMode());
 
-	//звук тяжелого дыхания при уталости и хромании
+	//звук тяжелого дыхания при усталости и хромании
 	if(this==Level().CurrentControlEntity() && !g_dedicated_server )
 	{
 		if(conditions().IsLimping() && g_Alive() && !psActorFlags.test(AF_GODMODE_RT)){

@@ -1,7 +1,7 @@
 #include "pch_script.h"
-#include "MosquitoBald.h"
+#include "ZoneMosquitoBald.h"
 #include "ZoneCampfire.h"
-#include "TorridZone.h"
+#include "ZoneTorrid.h"
 
 using namespace luabind;
 
