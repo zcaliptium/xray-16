@@ -748,11 +748,6 @@
     <ClInclude Include="ai_space_inline.h" />
     <ClInclude Include="alife_abstract_registry.h" />
     <ClInclude Include="alife_abstract_registry_inline.h" />
-    <ClInclude Include="alife_combat_manager.h" />
-    <ClInclude Include="alife_combat_manager_inline.h" />
-    <ClInclude Include="alife_communication_manager.h" />
-    <ClInclude Include="alife_communication_manager_inline.h" />
-    <ClInclude Include="alife_communication_space.h" />
     <ClInclude Include="alife_graph_registry.h" />
     <ClInclude Include="alife_graph_registry_inline.h" />
     <ClInclude Include="alife_group_registry.h" />
@@ -761,8 +756,6 @@
     <ClInclude Include="alife_human_object_handler.h" />
     <ClInclude Include="alife_human_object_handler_inline.h" />
     <ClInclude Include="alife_human_object_handler_save.h" />
-    <ClInclude Include="alife_interaction_manager.h" />
-    <ClInclude Include="alife_interaction_manager_inline.h" />
     <ClInclude Include="alife_level_registry.h" />
     <ClInclude Include="alife_level_registry_inline.h" />
     <ClInclude Include="alife_monster_detail_path_manager.h" />
@@ -2392,8 +2385,6 @@
     <ClCompile Include="ai_space.cpp" />
     <ClCompile Include="ai_stalker_alife.cpp" />
     <ClCompile Include="alife_anomalous_zone.cpp" />
-    <ClCompile Include="alife_combat_manager.cpp" />
-    <ClCompile Include="alife_communication_manager.cpp" />
     <ClCompile Include="alife_creature_abstract.cpp" />
     <ClCompile Include="alife_dynamic_object.cpp" />
     <ClCompile Include="alife_graph_registry.cpp" />
@@ -2405,7 +2396,6 @@
       <PrecompiledHeaderOutputFile>$(IntDir)$(ProjectName)_script.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClCompile Include="alife_human_object_handler.cpp" />
-    <ClCompile Include="alife_interaction_manager.cpp" />
     <ClCompile Include="alife_monster_abstract.cpp" />
     <ClCompile Include="alife_monster_base.cpp" />
     <ClCompile Include="alife_monster_brain_script.cpp">

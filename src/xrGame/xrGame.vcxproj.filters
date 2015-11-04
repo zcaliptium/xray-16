@@ -370,15 +370,6 @@
     <Filter Include="AI\ALife">
       <UniqueIdentifier>{0f4ad5a3-497b-4a6a-b0af-a5a64bad8a2d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="AI\ALife\interaction_manager">
-      <UniqueIdentifier>{b7cc99eb-c7bf-4733-a937-11a284dd5082}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AI\ALife\interaction_manager\communication_manager">
-      <UniqueIdentifier>{422007f7-9737-44a7-88cb-492d094843b7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AI\ALife\interaction_manager\combat_manager">
-      <UniqueIdentifier>{25f5bb8e-15a5-444b-a27e-b07400207e51}</UniqueIdentifier>
-    </Filter>
     <Filter Include="AI\ALife\simulator_base">
       <UniqueIdentifier>{bd6777eb-8459-4f12-9c16-ec2bd54619dd}</UniqueIdentifier>
     </Filter>
@@ -3125,27 +3116,6 @@
     </ClInclude>
     <ClInclude Include="..\xrServerEntities\alife_space.h">
       <Filter>AI\ALife</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_interaction_manager.h">
-      <Filter>AI\ALife\interaction_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_interaction_manager_inline.h">
-      <Filter>AI\ALife\interaction_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_communication_manager.h">
-      <Filter>AI\ALife\interaction_manager\communication_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_communication_manager_inline.h">
-      <Filter>AI\ALife\interaction_manager\communication_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_communication_space.h">
-      <Filter>AI\ALife\interaction_manager\communication_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_combat_manager.h">
-      <Filter>AI\ALife\interaction_manager\combat_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_combat_manager_inline.h">
-      <Filter>AI\ALife\interaction_manager\combat_manager</Filter>
     </ClInclude>
     <ClInclude Include="alife_simulator_base.h">
       <Filter>AI\ALife\simulator_base</Filter>
@@ -7591,15 +7561,6 @@
     </ClCompile>
     <ClCompile Include="..\xrServerEntities\alife_space.cpp">
       <Filter>AI\ALife</Filter>
-    </ClCompile>
-    <ClCompile Include="alife_interaction_manager.cpp">
-      <Filter>AI\ALife\interaction_manager</Filter>
-    </ClCompile>
-    <ClCompile Include="alife_communication_manager.cpp">
-      <Filter>AI\ALife\interaction_manager\communication_manager</Filter>
-    </ClCompile>
-    <ClCompile Include="alife_combat_manager.cpp">
-      <Filter>AI\ALife\interaction_manager\combat_manager</Filter>
     </ClCompile>
     <ClCompile Include="alife_simulator_base.cpp">
       <Filter>AI\ALife\simulator_base</Filter>
