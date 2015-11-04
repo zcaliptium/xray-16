@@ -10,7 +10,7 @@
 #include "stalker_animation_manager.h"
 #include "ai/stalker/ai_stalker.h"
 #include "inventory.h"
-#include "fooditem.h"
+#include "item/FoodItem.h"
 #include "property_storage.h"
 #include "stalker_movement_manager_smart_cover.h"
 #include "ai/stalker/ai_stalker_space.h"

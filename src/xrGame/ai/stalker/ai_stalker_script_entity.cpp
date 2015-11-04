@@ -10,7 +10,7 @@
 #include "ai_stalker.h"
 #include "../../stalker_animation_manager.h"
 #include "../../script_entity_action.h"
-#include "../../torch.h"
+#include "../../item/ItemTorch.h"
 #include "../../inventory.h"
 #include "../../weapon.h"
 #include "../../weaponmagazined.h"

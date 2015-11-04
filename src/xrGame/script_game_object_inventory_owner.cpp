@@ -6,7 +6,7 @@
 #include "script_game_object.h"
 #include "script_game_object_impl.h"
 #include "InventoryOwner.h"
-#include "Pda.h"
+#include "item/ItemPDA.h"
 #include "xrMessages.h"
 #include "character_info.h"
 #include "gametask.h"
@@ -42,10 +42,10 @@
 #include "ai/stalker/ai_stalker_impl.h"
 #include "smart_cover_object.h"
 #include "smart_cover.h"
-#include "customdetector.h"
+#include "item/ItemDetectorCustom.h"
 #include "doors_manager.h"
 #include "doors_door.h"
-#include "Torch.h"
+#include "item/ItemTorch.h"
 #include "physicobject.h"
 
 bool CScriptGameObject::GiveInfoPortion(LPCSTR info_id)

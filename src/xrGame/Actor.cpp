@@ -1,6 +1,6 @@
 #include "pch_script.h"
 #include "Actor_Flags.h"
-#include "hudmanager.h"
+#include "HUDManager.h"
 #ifdef DEBUG
 
 #	include "PHDebug.h"
@@ -12,20 +12,20 @@
 #include "xrserver_objects_alife_monsters.h"
 #include "CameraLook.h"
 #include "CameraFirstEye.h"
-#include "effectorfall.h"
+#include "EffectorFall.h"
 #include "EffectorBobbing.h"
 #include "ActorEffector.h"
 #include "EffectorZoomInertion.h"
 #include "SleepEffector.h"
 #include "character_info.h"
 #include "CustomOutfit.h"
-#include "actorcondition.h"
+#include "ActorCondition.h"
 #include "UIGameCustom.h"
 #include "../xrphysics/matrix_utils.h"
 #include "clsid_game.h"
 #include "game_cl_base_weapon_usage_statistic.h"
 #include "Grenade.h"
-#include "Torch.h"
+#include "item/ItemTorch.h"
 
 // breakpoints
 #include "../xrEngine/xr_input.h"
@@ -1009,8 +1009,8 @@ void CActor::UpdateCL	()
 #ifdef DEBUG
 			HUD().SetFirstBulletCrosshairDisp(pWeapon->GetFirstBulletDisp());
 #endif
-			
-			BOOL B = ! ((mstate_real & mcLookout) && !IsGameTypeSingle());
+			// XEM #95
+			BOOL B = TRUE;/*! ((mstate_real & mcLookout) && !IsGameTypeSingle());*/
 
 			psHUD_Flags.set( HUD_WEAPON_RT, B );
 
@@ -1226,7 +1226,7 @@ void CActor::shedule_Update	(u32 DT)
 	}
 	pCamBobbing->SetState						(mstate_real, conditions().IsLimping(), IsZoomAimingMode());
 
-	//звук тяжелого дыхания при уталости и хромании
+	//звук тяжелого дыхания при усталости и хромании
 	if(this==Level().CurrentControlEntity() && !g_dedicated_server )
 	{
 		if(conditions().IsLimping() && g_Alive() && !psActorFlags.test(AF_GODMODE_RT)){
@@ -1428,8 +1428,9 @@ extern	BOOL	g_ShowAnimationInfo		;
 void CActor::OnHUDDraw	(CCustomHUD*)
 {
 	R_ASSERT						(IsFocused());
-	if(! ( (mstate_real & mcLookout) && !IsGameTypeSingle() ) )
-		g_player_hud->render_hud		();
+	// XEM #95
+	//if(! ( (mstate_real & mcLookout) && !IsGameTypeSingle() ) )
+	g_player_hud->render_hud		();
 
 
 #if 0//ndef NDEBUG

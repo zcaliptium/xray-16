@@ -1710,87 +1710,6 @@ C++ class CArtefact : CGameObject {
 
 };
 
-C++ class CBastArtefact : CArtefact {
-    CBastArtefact ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
-
-    function use(CGameObject*);
-
-};
-
-C++ class CBlackDrops : CArtefact {
-    CBlackDrops ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
-
-    function use(CGameObject*);
-
-};
-
-C++ class CBlackGraviArtefact : CArtefact {
-    CBlackGraviArtefact ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
-
-    function use(CGameObject*);
-
-};
-
 C++ class CBlend {
 };
 
@@ -2067,33 +1986,6 @@ C++ class CPhraseScript {
 
 };
 
-C++ class CDummyArtefact : CArtefact {
-    CDummyArtefact ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
-
-    function use(CGameObject*);
-
-};
-
 C++ class cef_storage {
     function evaluate(cef_storage*, string, game_object*);
     function evaluate(cef_storage*, string, game_object*, game_object*);
@@ -2180,33 +2072,6 @@ C++ class CF1 : CGameObject {
 
 };
 
-C++ class CFadedBall : CArtefact {
-    CFadedBall ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
-
-    function use(CGameObject*);
-
-};
-
 C++ class CFoodItem : CGameObject {
     CFoodItem ();
     
@@ -2244,33 +2109,6 @@ C++ class CFracture : CGameObject {
     function getVisible() const;
 
     function net_Spawn(cse_abstract*);
-
-    function use(CGameObject*);
-
-};
-
-C++ class CGalantineArtefact : CArtefact {
-    CGalantineArtefact ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
 
     function use(CGameObject*);
 
@@ -2728,33 +2566,6 @@ C++ class CMedkit : CGameObject {
 
 };
 
-C++ class CMercuryBall : CArtefact {
-    CMercuryBall ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
-
-    function use(CGameObject*);
-
-};
-
 C++ class CMincer : CGameObject {
     CMincer ();
     
@@ -3075,33 +2886,6 @@ C++ class render_device {
     function is_paused(render_device*);
 
     function pause(render_device*, boolean);
-
-};
-
-C++ class CRustyHairArtefact : CArtefact {
-    CRustyHairArtefact ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
-
-    function use(CGameObject*);
 
 };
 
@@ -8864,33 +8648,6 @@ C++ class stalker_ids {
     
 };
 
-C++ class CThornArtefact : CArtefact {
-    CThornArtefact ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
-
-    function use(CGameObject*);
-
-};
-
 C++ class CTorch : CGameObject {
     CTorch ();
     
@@ -11247,33 +11004,6 @@ C++ class CZoneCampfire : CGameObject {
     function net_Export(net_packet&);
 
     function _construct();
-
-    function use(CGameObject*);
-
-};
-
-C++ class CZudaArtefact : CArtefact {
-    CZudaArtefact ();
-    
-    function Visual() const;
-
-    function _construct();
-
-    function net_Import(net_packet&);
-
-    function getVisible() const;
-
-    function net_Spawn(cse_abstract*);
-
-    function SwitchVisibility(boolean);
-
-    function FollowByPath(string, number, vector);
-
-    function getEnabled() const;
-
-    function net_Export(net_packet&);
-
-    function GetAfRank() const;
 
     function use(CGameObject*);
 

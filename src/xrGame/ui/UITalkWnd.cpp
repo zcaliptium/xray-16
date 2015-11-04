@@ -6,7 +6,7 @@
 #include "../actor.h"
 #include "../trade.h"
 #include "../UIGameSP.h"
-#include "../PDA.h"
+#include "../item/ItemPDA.h"
 #include "../../xrServerEntities/character_info.h"
 #include "../level.h"
 

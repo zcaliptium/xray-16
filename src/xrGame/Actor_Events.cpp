@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "actor.h"
-#include "customdetector.h"
+#include "item/ItemDetectorCustom.h"
 #include "weapon.h"
 #include "artefact.h"
 #include "scope.h"
@@ -9,7 +9,7 @@
 #include "inventory.h"
 #include "level.h"
 #include "xr_level_controller.h"
-#include "FoodItem.h"
+#include "item/FoodItem.h"
 #include "ActorCondition.h"
 #include "Grenade.h"
 

@@ -7,7 +7,7 @@
 #include "../CustomOutfit.h"
 #include "../ActorHelmet.h"
 #include "../inventory.h"
-#include "../RadioactiveZone.h"
+#include "../ZoneRadioactive.h"
 
 #include "UIStatic.h"
 #include "UIProgressBar.h"
@@ -16,9 +16,9 @@
 #include "UIHelper.h"
 #include "ui_arrow.h"
 #include "UIInventoryUtilities.h"
-#include "CustomDetector.h"
+#include "item/ItemDetectorCustom.h"
 #include "../ai/monsters/basemonster/base_monster.h"
-#include "../PDA.h"
+#include "../item/ItemPDA.h"
 #include "WeaponMagazinedWGrenade.h"
 
 CUIHudStatesWnd::CUIHudStatesWnd()

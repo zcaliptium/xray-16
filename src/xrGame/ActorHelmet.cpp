@@ -2,7 +2,7 @@
 #include "ActorHelmet.h"
 #include "Actor.h"
 #include "Inventory.h"
-#include "Torch.h"
+#include "item/ItemTorch.h"
 #include "BoneProtections.h"
 #include "../Include/xrRender/Kinematics.h"
 //#include "CustomOutfit.h"

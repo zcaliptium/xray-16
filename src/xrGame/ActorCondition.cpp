@@ -16,7 +16,7 @@
 #include "object_broker.h"
 #include "weapon.h"
 
-#include "PDA.h"
+#include "item/ItemPDA.h"
 #include "ai/monsters/basemonster/base_monster.h"
 #include "UIGameCustom.h"
 #include "ui/UIMainIngameWnd.h"

@@ -25,7 +25,7 @@
 #include "stalker_movement_manager_smart_cover.h"
 #include "sound_player.h"
 #include "ai/stalker/ai_stalker_space.h"
-#include "radioactivezone.h"
+#include "ZoneRadioactive.h"
 #include "alife_simulator.h"
 #include "alife_object_registry.h"
 #include "../xrServerEntities/xrServer_Objects_ALife_Monsters.h"

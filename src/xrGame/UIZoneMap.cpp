@@ -2,7 +2,7 @@
 #include "uizonemap.h"
 
 #include "InfoPortion.h"
-#include "Pda.h"
+#include "item/ItemPDA.h"
 
 #include "Grenade.h"
 #include "level.h"

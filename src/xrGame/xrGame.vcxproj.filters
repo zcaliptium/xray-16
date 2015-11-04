@@ -370,15 +370,6 @@
     <Filter Include="AI\ALife">
       <UniqueIdentifier>{0f4ad5a3-497b-4a6a-b0af-a5a64bad8a2d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="AI\ALife\interaction_manager">
-      <UniqueIdentifier>{b7cc99eb-c7bf-4733-a937-11a284dd5082}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AI\ALife\interaction_manager\communication_manager">
-      <UniqueIdentifier>{422007f7-9737-44a7-88cb-492d094843b7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AI\ALife\interaction_manager\combat_manager">
-      <UniqueIdentifier>{25f5bb8e-15a5-444b-a27e-b07400207e51}</UniqueIdentifier>
-    </Filter>
     <Filter Include="AI\ALife\simulator_base">
       <UniqueIdentifier>{bd6777eb-8459-4f12-9c16-ec2bd54619dd}</UniqueIdentifier>
     </Filter>
@@ -1822,41 +1813,8 @@
     <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\GraviArtifact">
       <UniqueIdentifier>{e45dc06f-93d1-47aa-a255-b35a909c5a5b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\BlackDrops">
-      <UniqueIdentifier>{d68178ef-1498-4691-8d41-8f09b2adc858}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\Needles">
-      <UniqueIdentifier>{07c37032-aed5-4de8-a20e-f5a8b36b9e53}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\BastArtifact">
-      <UniqueIdentifier>{ab233f62-2c6a-4a06-8272-2886b5d6821f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\BlackGraviArtifact">
-      <UniqueIdentifier>{db5d124a-8131-477c-8f61-0fbac1c027a4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\DummyArtifact">
-      <UniqueIdentifier>{28dfb71d-13e2-4cfe-8d00-f0a9e4585a91}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\ZudaArtifact">
-      <UniqueIdentifier>{ccf79896-7f47-4cd4-ad59-c72dd62deea3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\ThornArtifact">
-      <UniqueIdentifier>{f14b57db-9249-415e-b183-e84bf0d36d9e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\Faded Ball">
-      <UniqueIdentifier>{f1fddab1-4ff4-4b30-be58-3e04cb87bd95}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\Faded Ball\Mercury Ball">
-      <UniqueIdentifier>{cb40f56e-509a-4649-adb1-9561869f44b9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\Electric Ball">
       <UniqueIdentifier>{9f953015-30a8-4b93-9378-d5b9da8f90a2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\RustyHairArtifact">
-      <UniqueIdentifier>{a3d091d5-b0c6-4741-b3d2-553a246ccffe}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\GalantineArtifact">
-      <UniqueIdentifier>{1fdfd13c-486a-44c9-b3da-d29e77fd4554}</UniqueIdentifier>
     </Filter>
     <Filter Include="Core\Client\Objects\items &amp; weapons\Artifacts\CtaGameArtefact">
       <UniqueIdentifier>{5af1279d-308d-4b6f-b1ee-20d767d083eb}</UniqueIdentifier>
@@ -1878,9 +1836,6 @@
     </Filter>
     <Filter Include="Core\Client\Objects\items &amp; weapons\Devices\Torch">
       <UniqueIdentifier>{aba5d59b-9d45-48d4-824e-ac2e133ad875}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\items &amp; weapons\Devices\flare">
-      <UniqueIdentifier>{8b5e7495-9945-41d5-92ad-ee33ee7900f9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Core\Client\Objects\items &amp; weapons\PDA &amp; information">
       <UniqueIdentifier>{18753230-e688-46c5-9d53-9b4845eca8a6}</UniqueIdentifier>
@@ -1927,9 +1882,6 @@
     <Filter Include="Core\Client\Objects\zones\LevelChanger">
       <UniqueIdentifier>{4120635b-0be9-4a96-8d03-cb1598ed478e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Core\Client\Objects\zones\Mincer">
-      <UniqueIdentifier>{63deb685-6e6c-4f60-880b-36c9519f0078}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Core\Client\Objects\zones\MosquitoBald">
       <UniqueIdentifier>{48c333a7-c368-4d6a-93aa-3238f091b372}</UniqueIdentifier>
     </Filter>
@@ -1959,9 +1911,6 @@
     </Filter>
     <Filter Include="Core\Client\Objects\zones\ZoneVisual">
       <UniqueIdentifier>{3e6d80bf-869b-4fd5-816d-95b85f73c4d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Core\Client\Objects\zones\campfire">
-      <UniqueIdentifier>{2f249914-77ba-4f93-bb46-ea833f37ab6d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Core\Client\Objects\vehicles">
       <UniqueIdentifier>{648ba974-6501-47a2-9650-a210f1843d61}</UniqueIdentifier>
@@ -2487,6 +2436,12 @@
     </Filter>
     <Filter Include="Physics\scripts">
       <UniqueIdentifier>{66d4d9cb-fbc2-4e9a-8483-4eb5c1738ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Client\Objects\zones\Campfire">
+      <UniqueIdentifier>{2f249914-77ba-4f93-bb46-ea833f37ab6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Client\Objects\zones\Mincer">
+      <UniqueIdentifier>{63deb685-6e6c-4f60-880b-36c9519f0078}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -3161,27 +3116,6 @@
     </ClInclude>
     <ClInclude Include="..\xrServerEntities\alife_space.h">
       <Filter>AI\ALife</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_interaction_manager.h">
-      <Filter>AI\ALife\interaction_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_interaction_manager_inline.h">
-      <Filter>AI\ALife\interaction_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_communication_manager.h">
-      <Filter>AI\ALife\interaction_manager\communication_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_communication_manager_inline.h">
-      <Filter>AI\ALife\interaction_manager\communication_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_communication_space.h">
-      <Filter>AI\ALife\interaction_manager\communication_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_combat_manager.h">
-      <Filter>AI\ALife\interaction_manager\combat_manager</Filter>
-    </ClInclude>
-    <ClInclude Include="alife_combat_manager_inline.h">
-      <Filter>AI\ALife\interaction_manager\combat_manager</Filter>
     </ClInclude>
     <ClInclude Include="alife_simulator_base.h">
       <Filter>AI\ALife\simulator_base</Filter>
@@ -5859,41 +5793,8 @@
     <ClInclude Include="GraviArtifact.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\GraviArtifact</Filter>
     </ClInclude>
-    <ClInclude Include="BlackDrops.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\BlackDrops</Filter>
-    </ClInclude>
-    <ClInclude Include="Needles.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\Needles</Filter>
-    </ClInclude>
-    <ClInclude Include="BastArtifact.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\BastArtifact</Filter>
-    </ClInclude>
-    <ClInclude Include="BlackGraviArtifact.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\BlackGraviArtifact</Filter>
-    </ClInclude>
-    <ClInclude Include="DummyArtifact.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\DummyArtifact</Filter>
-    </ClInclude>
-    <ClInclude Include="ZudaArtifact.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\ZudaArtifact</Filter>
-    </ClInclude>
-    <ClInclude Include="ThornArtifact.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\ThornArtifact</Filter>
-    </ClInclude>
-    <ClInclude Include="FadedBall.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\Faded Ball</Filter>
-    </ClInclude>
-    <ClInclude Include="MercuryBall.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\Faded Ball\Mercury Ball</Filter>
-    </ClInclude>
     <ClInclude Include="ElectricBall.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\Electric Ball</Filter>
-    </ClInclude>
-    <ClInclude Include="RustyHairArtifact.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\RustyHairArtifact</Filter>
-    </ClInclude>
-    <ClInclude Include="GalantineArtifact.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\GalantineArtifact</Filter>
     </ClInclude>
     <ClInclude Include="cta_game_artefact.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\CtaGameArtefact</Filter>
@@ -5904,44 +5805,11 @@
     <ClInclude Include="ui\ArtefactDetectorUI.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
     </ClInclude>
-    <ClInclude Include="CustomDetector.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleDetector.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\Simple Detector</Filter>
-    </ClInclude>
-    <ClInclude Include="AdvancedDetector.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\AdvancedDetector</Filter>
-    </ClInclude>
-    <ClInclude Include="EliteDetector.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\EliteDetector</Filter>
-    </ClInclude>
-    <ClInclude Include="Torch.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
-    </ClInclude>
-    <ClInclude Include="flare.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\flare</Filter>
-    </ClInclude>
-    <ClInclude Include="PDA.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
-    </ClInclude>
     <ClInclude Include="pda_space.h">
       <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
     </ClInclude>
     <ClInclude Include="PdaMsg.h">
       <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
-    </ClInclude>
-    <ClInclude Include="antirad.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
-    </ClInclude>
-    <ClInclude Include="BottleItem.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
-    </ClInclude>
-    <ClInclude Include="FoodItem.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
-    </ClInclude>
-    <ClInclude Include="medkit.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
     </ClInclude>
     <ClInclude Include="ActorHelmet.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
@@ -5952,20 +5820,8 @@
     <ClInclude Include="CustomOutfit.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
     </ClInclude>
-    <ClInclude Include="ExoOutfit.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClInclude>
-    <ClInclude Include="MilitaryOutfit.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClInclude>
-    <ClInclude Include="ScientificOutfit.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClInclude>
     <ClInclude Include="StalkerOutfit.h">
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClInclude>
-    <ClInclude Include="InfoDocument.h">
-      <Filter>Core\Client\Objects\items &amp; weapons\Documents</Filter>
     </ClInclude>
     <ClInclude Include="hud_item_object.h">
       <Filter>Core\Client\Objects\items &amp; weapons\HudItem</Filter>
@@ -6000,44 +5856,17 @@
     <ClInclude Include="CustomZone.h">
       <Filter>Core\Client\Objects\zones\CustomZone</Filter>
     </ClInclude>
-    <ClInclude Include="FryupZone.h">
-      <Filter>Core\Client\Objects\zones\FryUpZone</Filter>
-    </ClInclude>
-    <ClInclude Include="GraviZone.h">
-      <Filter>Core\Client\Objects\zones\GraviZone</Filter>
-    </ClInclude>
-    <ClInclude Include="level_changer.h">
-      <Filter>Core\Client\Objects\zones\LevelChanger</Filter>
-    </ClInclude>
-    <ClInclude Include="Mincer.h">
-      <Filter>Core\Client\Objects\zones\Mincer</Filter>
-    </ClInclude>
-    <ClInclude Include="MosquitoBald.h">
-      <Filter>Core\Client\Objects\zones\MosquitoBald</Filter>
-    </ClInclude>
-    <ClInclude Include="RadioactiveZone.h">
-      <Filter>Core\Client\Objects\zones\RadioactiveZone</Filter>
-    </ClInclude>
     <ClInclude Include="script_zone.h">
       <Filter>Core\Client\Objects\zones\ScriptZone</Filter>
     </ClInclude>
     <ClInclude Include="team_base_zone.h">
       <Filter>Core\Client\Objects\zones\TeamBaseZone</Filter>
     </ClInclude>
-    <ClInclude Include="TorridZone.h">
-      <Filter>Core\Client\Objects\zones\TorridZone</Filter>
-    </ClInclude>
     <ClInclude Include="space_restrictor.h">
       <Filter>Core\Client\Objects\zones\SpaceRestrictor</Filter>
     </ClInclude>
     <ClInclude Include="space_restrictor_inline.h">
       <Filter>Core\Client\Objects\zones\SpaceRestrictor</Filter>
-    </ClInclude>
-    <ClInclude Include="HairsZone.h">
-      <Filter>Core\Client\Objects\zones\HairsZone</Filter>
-    </ClInclude>
-    <ClInclude Include="NoGravityZone.h">
-      <Filter>Core\Client\Objects\zones\NoGravityZone</Filter>
     </ClInclude>
     <ClInclude Include="smart_zone.h">
       <Filter>Core\Client\Objects\zones\SmartZone</Filter>
@@ -6046,7 +5875,7 @@
       <Filter>Core\Client\Objects\zones\ZoneVisual</Filter>
     </ClInclude>
     <ClInclude Include="ZoneCampfire.h">
-      <Filter>Core\Client\Objects\zones\campfire</Filter>
+      <Filter>Core\Client\Objects\zones\Campfire</Filter>
     </ClInclude>
     <ClInclude Include="Car.h">
       <Filter>Core\Client\Objects\vehicles\Car</Filter>
@@ -7377,6 +7206,60 @@
     <ClInclude Include="ui\ChangeWeatherDialog.hpp">
       <Filter>UI\Multiplayer\Voting</Filter>
     </ClInclude>
+    <ClInclude Include="item\ItemDetectorAdvanced.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\AdvancedDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemDetectorElite.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\EliteDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemDetectorSimple.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\Simple Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemDetectorCustom.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemPDA.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemTorch.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemInfoDocument.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneMosquitoBald.h">
+      <Filter>Core\Client\Objects\zones\MosquitoBald</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneMincer.h">
+      <Filter>Core\Client\Objects\zones\Mincer</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneLevelChanger.h">
+      <Filter>Core\Client\Objects\zones\LevelChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneGravi.h">
+      <Filter>Core\Client\Objects\zones\GraviZone</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneRadioactive.h">
+      <Filter>Core\Client\Objects\zones\RadioactiveZone</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneNoGravity.h">
+      <Filter>Core\Client\Objects\zones\NoGravityZone</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneTorrid.h">
+      <Filter>Core\Client\Objects\zones\TorridZone</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoneHairs.h">
+      <Filter>Core\Client\Objects\zones\HairsZone</Filter>
+    </ClInclude>
+    <ClInclude Include="item\FoodItem.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemMedkit.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
+    </ClInclude>
+    <ClInclude Include="item\BottleItem.h">
+      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="damage_manager.cpp">
@@ -7678,15 +7561,6 @@
     </ClCompile>
     <ClCompile Include="..\xrServerEntities\alife_space.cpp">
       <Filter>AI\ALife</Filter>
-    </ClCompile>
-    <ClCompile Include="alife_interaction_manager.cpp">
-      <Filter>AI\ALife\interaction_manager</Filter>
-    </ClCompile>
-    <ClCompile Include="alife_communication_manager.cpp">
-      <Filter>AI\ALife\interaction_manager\communication_manager</Filter>
-    </ClCompile>
-    <ClCompile Include="alife_combat_manager.cpp">
-      <Filter>AI\ALife\interaction_manager\combat_manager</Filter>
     </ClCompile>
     <ClCompile Include="alife_simulator_base.cpp">
       <Filter>AI\ALife\simulator_base</Filter>
@@ -9434,41 +9308,8 @@
     <ClCompile Include="GraviArtifact.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\GraviArtifact</Filter>
     </ClCompile>
-    <ClCompile Include="BlackDrops.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\BlackDrops</Filter>
-    </ClCompile>
-    <ClCompile Include="Needles.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\Needles</Filter>
-    </ClCompile>
-    <ClCompile Include="BastArtifact.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\BastArtifact</Filter>
-    </ClCompile>
-    <ClCompile Include="BlackGraviArtifact.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\BlackGraviArtifact</Filter>
-    </ClCompile>
-    <ClCompile Include="DummyArtifact.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\DummyArtifact</Filter>
-    </ClCompile>
-    <ClCompile Include="ZudaArtifact.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\ZudaArtifact</Filter>
-    </ClCompile>
-    <ClCompile Include="ThornArtifact.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\ThornArtifact</Filter>
-    </ClCompile>
-    <ClCompile Include="FadedBall.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\Faded Ball</Filter>
-    </ClCompile>
-    <ClCompile Include="MercuryBall.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\Faded Ball\Mercury Ball</Filter>
-    </ClCompile>
     <ClCompile Include="ElectricBall.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\Electric Ball</Filter>
-    </ClCompile>
-    <ClCompile Include="RustyHairArtifact.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\RustyHairArtifact</Filter>
-    </ClCompile>
-    <ClCompile Include="GalantineArtifact.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\GalantineArtifact</Filter>
     </ClCompile>
     <ClCompile Include="cta_game_artefact.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Artifacts\CtaGameArtefact</Filter>
@@ -9479,42 +9320,6 @@
     <ClCompile Include="ui\ArtefactDetectorUI.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
     </ClCompile>
-    <ClCompile Include="CustomDetector.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
-    </ClCompile>
-    <ClCompile Include="SimpleDetector.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\Simple Detector</Filter>
-    </ClCompile>
-    <ClCompile Include="AdvancedDetector.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\AdvancedDetector</Filter>
-    </ClCompile>
-    <ClCompile Include="EliteDetector.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\EliteDetector</Filter>
-    </ClCompile>
-    <ClCompile Include="Torch.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
-    </ClCompile>
-    <ClCompile Include="torch_script.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
-    </ClCompile>
-    <ClCompile Include="flare.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Devices\flare</Filter>
-    </ClCompile>
-    <ClCompile Include="PDA.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
-    </ClCompile>
-    <ClCompile Include="antirad.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
-    </ClCompile>
-    <ClCompile Include="BottleItem.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
-    </ClCompile>
-    <ClCompile Include="FoodItem.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
-    </ClCompile>
-    <ClCompile Include="medkit.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
-    </ClCompile>
     <ClCompile Include="ActorHelmet.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
     </ClCompile>
@@ -9524,20 +9329,8 @@
     <ClCompile Include="CustomOutfit.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
     </ClCompile>
-    <ClCompile Include="ExoOutfit.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClCompile>
-    <ClCompile Include="MilitaryOutfit.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClCompile>
-    <ClCompile Include="ScientificOutfit.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClCompile>
     <ClCompile Include="StalkerOutfit.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\Outfit</Filter>
-    </ClCompile>
-    <ClCompile Include="InfoDocument.cpp">
-      <Filter>Core\Client\Objects\items &amp; weapons\Documents</Filter>
     </ClCompile>
     <ClCompile Include="hud_item_object.cpp">
       <Filter>Core\Client\Objects\items &amp; weapons\HudItem</Filter>
@@ -9593,30 +9386,6 @@
     <ClCompile Include="CustomZone.cpp">
       <Filter>Core\Client\Objects\zones\CustomZone</Filter>
     </ClCompile>
-    <ClCompile Include="FryupZone.cpp">
-      <Filter>Core\Client\Objects\zones\FryUpZone</Filter>
-    </ClCompile>
-    <ClCompile Include="GraviZone.cpp">
-      <Filter>Core\Client\Objects\zones\GraviZone</Filter>
-    </ClCompile>
-    <ClCompile Include="level_changer.cpp">
-      <Filter>Core\Client\Objects\zones\LevelChanger</Filter>
-    </ClCompile>
-    <ClCompile Include="Mincer.cpp">
-      <Filter>Core\Client\Objects\zones\Mincer</Filter>
-    </ClCompile>
-    <ClCompile Include="mincer_script.cpp">
-      <Filter>Core\Client\Objects\zones\Mincer</Filter>
-    </ClCompile>
-    <ClCompile Include="MosquitoBald.cpp">
-      <Filter>Core\Client\Objects\zones\MosquitoBald</Filter>
-    </ClCompile>
-    <ClCompile Include="MosquitoBald_script.cpp">
-      <Filter>Core\Client\Objects\zones\MosquitoBald</Filter>
-    </ClCompile>
-    <ClCompile Include="RadioactiveZone.cpp">
-      <Filter>Core\Client\Objects\zones\RadioactiveZone</Filter>
-    </ClCompile>
     <ClCompile Include="script_zone.cpp">
       <Filter>Core\Client\Objects\zones\ScriptZone</Filter>
     </ClCompile>
@@ -9626,29 +9395,17 @@
     <ClCompile Include="team_base_zone.cpp">
       <Filter>Core\Client\Objects\zones\TeamBaseZone</Filter>
     </ClCompile>
-    <ClCompile Include="TorridZone.cpp">
-      <Filter>Core\Client\Objects\zones\TorridZone</Filter>
-    </ClCompile>
     <ClCompile Include="space_restrictor.cpp">
       <Filter>Core\Client\Objects\zones\SpaceRestrictor</Filter>
     </ClCompile>
     <ClCompile Include="space_restrictor_script.cpp">
       <Filter>Core\Client\Objects\zones\SpaceRestrictor</Filter>
     </ClCompile>
-    <ClCompile Include="HairsZone.cpp">
-      <Filter>Core\Client\Objects\zones\HairsZone</Filter>
-    </ClCompile>
-    <ClCompile Include="HairsZone_script.cpp">
-      <Filter>Core\Client\Objects\zones\HairsZone</Filter>
-    </ClCompile>
-    <ClCompile Include="NoGravityZone.cpp">
-      <Filter>Core\Client\Objects\zones\NoGravityZone</Filter>
-    </ClCompile>
     <ClCompile Include="ZoneVisual.cpp">
       <Filter>Core\Client\Objects\zones\ZoneVisual</Filter>
     </ClCompile>
     <ClCompile Include="ZoneCampfire.cpp">
-      <Filter>Core\Client\Objects\zones\campfire</Filter>
+      <Filter>Core\Client\Objects\zones\Campfire</Filter>
     </ClCompile>
     <ClCompile Include="Car.cpp">
       <Filter>Core\Client\Objects\vehicles\Car</Filter>
@@ -11023,6 +10780,72 @@
     </ClCompile>
     <ClCompile Include="ui\ChangeWeatherDialog.cpp">
       <Filter>UI\Multiplayer\Voting</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemDetectorAdvanced.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\AdvancedDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemDetectorElite.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\EliteDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemDetectorSimple.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors\Simple Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemDetectorCustom.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Detectors</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemPDA.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\PDA &amp; information</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemTorch_script.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemTorch.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Devices\Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemInfoDocument.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneMosquitoBald.cpp">
+      <Filter>Core\Client\Objects\zones\MosquitoBald</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneMosquitoBald_script.cpp">
+      <Filter>Core\Client\Objects\zones\MosquitoBald</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneMincer_script.cpp">
+      <Filter>Core\Client\Objects\zones\Mincer</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneMincer.cpp">
+      <Filter>Core\Client\Objects\zones\Mincer</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneLevelChanger.cpp">
+      <Filter>Core\Client\Objects\zones\LevelChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneGravi.cpp">
+      <Filter>Core\Client\Objects\zones\GraviZone</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneRadioactive.cpp">
+      <Filter>Core\Client\Objects\zones\RadioactiveZone</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneNoGravity.cpp">
+      <Filter>Core\Client\Objects\zones\NoGravityZone</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneTorrid.cpp">
+      <Filter>Core\Client\Objects\zones\TorridZone</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneHairs_script.cpp">
+      <Filter>Core\Client\Objects\zones\HairsZone</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoneHairs.cpp">
+      <Filter>Core\Client\Objects\zones\HairsZone</Filter>
+    </ClCompile>
+    <ClCompile Include="item\FoodItem.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemMedkit.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
+    </ClCompile>
+    <ClCompile Include="item\BottleItem.cpp">
+      <Filter>Core\Client\Objects\items &amp; weapons\Food &amp; Drugs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

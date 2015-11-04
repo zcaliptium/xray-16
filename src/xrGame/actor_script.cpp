@@ -7,8 +7,8 @@
 ////////////////////////////////////////////////////////////////////////////
 
 #include "pch_script.h"
-#include "actor.h"
-#include "level_changer.h"
+#include "Actor.h"
+#include "ZoneLevelChanger.h"
 
 using namespace luabind;
 

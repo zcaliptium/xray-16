@@ -300,7 +300,7 @@ CPhysicObject* CScriptGameObject::get_physics_object()
 {
 	return smart_cast<CPhysicObject*>(&object());
 }
-#include "level_changer.h"
+#include "ZoneLevelChanger.h"
 void CScriptGameObject::enable_level_changer(bool b)
 {
 	CLevelChanger* lch = smart_cast<CLevelChanger*>(&object());

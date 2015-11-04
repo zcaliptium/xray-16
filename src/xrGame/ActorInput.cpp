@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include <dinput.h>
 #include "Actor.h"
-#include "Torch.h"
+#include "item/ItemTorch.h"
 #include "trade.h"
 #include "../xrEngine/CameraBase.h"
 
@@ -28,8 +28,7 @@
 #include "InventoryBox.h"
 #include "player_hud.h"
 #include "../xrEngine/xr_input.h"
-#include "flare.h"
-#include "CustomDetector.h"
+#include "item/ItemDetectorCustom.h"
 #include "clsid_game.h"
 #include "hudmanager.h"
 #include "Weapon.h"
@@ -49,7 +48,8 @@ void CActor::IR_OnKeyboardPress(int cmd)
 	{
 	case kWPN_FIRE:
 		{
-			if( (mstate_wishful & mcLookout) && !IsGameTypeSingle() ) return;
+			/* XEM #95 */
+			//if( (mstate_wishful & mcLookout) && !IsGameTypeSingle() ) return;
 
 			u16 slot = inventory().GetActiveSlot();
 			if(inventory().ActiveItem() && (slot==INV_SLOT_3 || slot==INV_SLOT_2) )

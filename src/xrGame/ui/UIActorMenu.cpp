@@ -20,7 +20,7 @@
 #include "../trade_parameters.h"
 #include "../ActorHelmet.h"
 #include "../CustomOutfit.h"
-#include "../CustomDetector.h"
+#include "../item/ItemDetectorCustom.h"
 #include "../eatable_item.h"
 
 #include "UIProgressBar.h"
